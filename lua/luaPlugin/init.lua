@@ -1,4 +1,4 @@
-local function run_jest()
+local function split_terminal()
   local file = vim.fn.expand("%:p")
   print("my file is " .. file)
   vim.cmd("vsplit | terminal")
@@ -7,5 +7,5 @@ local function run_jest()
 end
 
 return {
-  run_jest = run_jest
+  split_terminal = split_terminal
 }
