@@ -4,13 +4,13 @@ Feel free to modify and add more plugins :)
 
 ## Usage
 
-```
-$ git clone <repository> --> put in your runtimepath
-$ :lua vim.inspect(require"stackmap") --> run this in nvim to print table result
+```bash
+$ git clone <repository> # Put in your runtimepath
+$ :lua vim.inspect(require"stackmap") # Run this in nvim to print table result
 ```
 
 ## Advanced Usage
 
-```
+```bash
 $ Check the code yourself lol
 ```
