@@ -1,12 +1,16 @@
 # Custom neovim plugins written in lua
 
-Currently has one plugin which is splitting terminal. Feel free to modify and add more plugins :)
+Feel free to modify and add more plugins :)
 
 ## Usage
 
 ```
-$ git clone <repository>
-$ cd ./neovim-lua-plugins
-$ nvim ./lua/luaPlugin/init.lua --cmd "set rtp+=./"
-$ :lua require"luaPlugin".split_terminal() --> Run this in nvim
+$ git clone <repository> --> put in your runtimepath
+$ :lua vim.inspect(require"stackmap") --> run this in nvim to print table result
+```
+
+## Advanced Usage
+
+```
+$ Check the code yourself lol
 ```
